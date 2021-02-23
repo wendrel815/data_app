@@ -37,7 +37,7 @@ sl.markdown(
 
 @sl.cache
 def get_data():
-  path_dataset = 'C:/Users/wendr/Data Science/DATASETS/csv_files/Iris.csv'
+  path_dataset = 'Iris.csv'
   iris_data = pd.read_csv(path_dataset)
   return iris_data
 
